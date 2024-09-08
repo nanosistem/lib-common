@@ -7,7 +7,6 @@ import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
   selector: 'nsrtm-alert',
   templateUrl: './alert.component.html',
   styleUrls: ['./alert.component.scss'],
-  host: { '[class.ngb-toasts]': 'true' },
   standalone: true,
   imports: [CommonModule, NgbToastModule],
 })
