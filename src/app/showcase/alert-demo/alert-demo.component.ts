@@ -11,7 +11,7 @@ export class AlertDemoComponent  {
   private readonly alertService = inject(AlertService);
 
   showSuccess() {
-    this.alertService.success( 'This is a success message',15000);
+    this.alertService.success( 'This is a success message This is a success message This is a success message This is a success message',150000);
   }
 
   showError() {
