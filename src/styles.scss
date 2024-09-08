@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* Import Scss styles */
+@import 'assets/scss/siaf';
+/* Import Bootstrap */
+@import '~bootstrap/scss/bootstrap';
+/* Import Ngselect */
+/*@import "~@ng-select/ng-select/themes/default.theme.css";*/
+/* Import Feather icons */
+@import 'assets/icons/css/iconfont.css';
+
+body {
+	color: $siaf-black;
+    font-family: 'Calibri', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
