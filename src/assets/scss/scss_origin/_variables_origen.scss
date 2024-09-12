@@ -1,11 +1,11 @@
-
+@use '../json/variables.json' as json;
 //NEW
-$color_primary: #ED3237;
-$color_secondary: #F59E3F;
-$color_success: #93C249;
-$color_info: #0594B9;
-$color_warning: #F59E3F;
-$color_danger: #ED3237;
+$color_primary: json.$color_primary;
+$color_secondary: json.$color_secondary;
+$color_success: json.$color_success;
+$color_info: json.$color_info;
+$color_warning: json.$color_warning;
+$color_danger: json.$color_danger;
 
 // Colores
 $siaf-black: #141415;
